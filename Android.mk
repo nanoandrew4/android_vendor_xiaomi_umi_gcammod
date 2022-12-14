@@ -6,7 +6,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_PRODUCT_MODULE := true
-LOCAL_OVERRIDES_PACKAGES := Aperture Camera2
 LOCAL_OPTIONAL_USES_LIBRARIES := com.google.android.gestureservice \
 	com.google.android.camera2 \
 	com.google.android.camera.experimental2015 \
